@@ -64,7 +64,7 @@ SEEN_FILE=data/seen_casts.json
 
 ### 4. Running
 ```bash
-python -m main.py
+python -m main
 ```
 
 
