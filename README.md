@@ -14,17 +14,17 @@ A modular Python bot that monitors new Farcaster casts for a specific user (FID)
 ```text
 farcaster_watcher/
 ├── src/
-│   ├── __init__.py
 │   ├── config.py
 │   ├── storage.py
 │   ├── neynar_client.py
-│   ├── telegram_client.py
-│   └── main.py
+│   └── telegram_client.py
 ├── data/
+│   ├── .gitkeep
 │   └── seen_casts.json
 ├── logs/
 │   └── .gitkeep
 ├── .env.example
+├── main.py
 ├── requirements.txt
 ├── .gitignore
 └── README.md
